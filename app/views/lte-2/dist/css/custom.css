@@ -1,0 +1,109 @@
+
+.no-padding{
+    padding: 0;
+}
+.list-title{
+    border-radius: 0;
+    padding: 11px;
+    float:left;
+    min-width: 150px;
+}
+.list-text {
+    float:left;
+    padding: 11px;
+    margin-right: 50px;
+}
+.no-margin{
+    margin:0;
+}
+.bg-light-gray{
+    background-color: #F3F3F3;
+    color:#000;
+}
+
+.label-lg{
+    padding: 11px;
+    margin-right:5px;
+    font-size:100%
+}
+.label-md{
+    padding:5px;
+    font-size:13px;
+    margin-right:5px;
+}
+
+a.no-hover:hover{
+    background: none;
+}
+.no-resize{
+    resize: none;
+}
+.no-border-radius{
+    border-radius: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-default{
+    cursor: default;
+}
+
+/* For captions */
+.with-caption {
+    position:relative;
+    overflow:hidden;
+}
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background: #000;
+    opacity: 0.9;
+    width:100%;
+    height:100%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+.no-background{
+    background: none;
+}
+
+/* Topo da tab-nav Purple */
+.nav-tabs-custom.tab-purple > .nav-tabs > li.active {
+  border-top-color: #605ca8;
+}
+
+/* Topo do Box Purple */
+.box.box-purple {
+  border-top-color: #605ca8;
+}
+
+.obrigatorio:before{ 
+    content: "* ";
+    color: #dd4b39; /* Vermelho */
+}
+
+.box-body {
+    padding: 20px;
+}
+
+.info-box > .content-middle {
+    padding-top: 15px
+}
+
+/* Color Picker tamanho 2x */
+ .colorpicker-2x .colorpicker-saturation { width: 200px; height: 200px; } .colorpicker-2x .colorpicker-hue, 
+ .colorpicker-2x .colorpicker-alpha { width: 30px; height: 200px; } .colorpicker-2x .colorpicker-color, 
+ .colorpicker-2x .colorpicker-color div { height: 30px; }
+ 
+ /* dropdown */
+ .dropdown-menu{
+     box-shadow: 0px 1px 0px #111;
+ }
+.dropdown-menu > li > a:hover {
+  background-color: #605ca8;
+  color: #FFF;
+}
