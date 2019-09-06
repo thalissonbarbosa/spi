@@ -21,8 +21,14 @@ define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', dirname(__FILE__));
 define("ROOT_PATH", "/spi/");
 
-define("URL_ROOT", "http://cabralgama.com/spi/");
-define('DIR_IMG', 'http://cabralgama.com/spi/assets/img/');
-define('DIR_FORMS', 'http://cabralgama.com/spi/lib/forms/');
+// define("URL_ROOT", "http://cabralgama.com/spi/");
+// define('DIR_IMG', 'http://cabralgama.com/spi/assets/img/');
+// define('DIR_FORMS', 'http://cabralgama.com/spi/lib/forms/');
+// define('DIR_LAYOUT', 'app/views/lte-2/');
+// define('URL_MIN' , 'http://cabralgama.com/min/f=spi/' );
+
+define("URL_ROOT", "http://shirodev/spi/");
+define('DIR_IMG', 'http://shirodev/spi/assets/img/');
+define('DIR_FORMS', 'http://shirodev/spi/lib/forms/');
 define('DIR_LAYOUT', 'app/views/lte-2/');
-define('URL_MIN' , 'http://cabralgama.com/min/f=spi/' );
+define('URL_MIN' , 'http://shirodev/min/?f=spi/' );

@@ -6,9 +6,9 @@ RewriteRule ^([a-zA-Z]*)/?([a-zA-Z_]*)?/?([a-zA-Z0-9]*)?/?$ index.php?controller
 # Use PHP55 as default
 AddHandler application/x-httpd-php55 .php
 # BEGIN custom php.ini PHP55
-<IfModule mod_suphp.c>
-    suPHP_ConfigPath /home/cabra031/public_html/spi
-</IfModule>
+#<IfModule mod_suphp.c>
+#    suPHP_ConfigPath /home/cabra031/public_html/spi
+#</IfModule>
 # END custom php.ini
 
 <ifmodule mod_gzip.c="">
@@ -116,8 +116,8 @@ ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING ##
-RewriteCond %{HTTP_HOST} ^spi\.cabralgama\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.spi\.cabralgama\.com$
-RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^/?$ "http\:\/\/www\.cabralgama\.com\/spi" [R=301,L]
+#RewriteCond %{HTTP_HOST} ^spi\.cabralgama\.com$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.spi\.cabralgama\.com$
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule ^/?$ "http\:\/\/www\.cabralgama\.com\/spi" [R=301,L]
