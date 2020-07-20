@@ -11,7 +11,7 @@
         "php": ">=5.2.8",
         "verot/class.upload.php": "dev-master",
         "dompdf/dompdf": "0.7.x@beta",
-        "phpmailer/phpmailer": "~5.2",
+        "phpmailer/phpmailer": "^6.1",
         "FortAwesome/Font-Awesome": "v4.5.0"
 
     },
